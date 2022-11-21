@@ -1,0 +1,479 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
+header{
+	text-align: center;
+
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  	background-color: white;
+  	width: 640px;
+  	margin: 0 auto; 
+}
+div{
+	word-wrap: break-word;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	width: 250px;
+	text-align: justify;
+	margin-bottom: 0px;
+	color: rgb(0, 0, 0);
+	font-weight: 300;
+}
+.decalgauche{
+	margin-left: 50px;
+}
+.decaldroite{
+	margin-right: 50px;
+}
+img{
+	width: 200px;
+	height: 180px;
+	position: relative;
+	margin: 20px 0 auto 0;	
+}
+h1{
+	font-size: 45px;
+	font-weight:inherit; 
+	color:inherit;
+	line-height: 40px;
+	margin: 0px 0  20px 0;
+	width: 100%;
+}
+h2{
+	font-size: 24px;
+	line-height: 30px;
+	margin: 15px 0 7px 0;
+}
+h3{
+	font-size: 20px;
+	line-height: 24px;
+}
+.interlignebas{
+	margin-bottom: 0px;
+}
+.interlignehaut{
+	margin-top: 0px;
+}
+legend{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: rgba(0,0,0,0.7);
+	margin: 0 auto;
+}
+.legendrond{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	margin: 0 auto;
+}
+select{
+    font-size: 15px;
+    width:150px;
+    height: 32px;
+    text-align: center !important;
+    background-color: rgba(0,0,0,0.2);
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 5px;
+    margin: 7px 15px 5px 15px;
+}
+input{
+    width:150px;
+    height: 25px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 7px 15px 5px 15px;
+}
+input[type=submit]{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(212, 46, 26,1);
+    border: 2px solid #d42e1a;
+    color: #FFF;
+    border-radius: 5px;
+    margin: 20px 15px 20px 15px;
+    font-size: 15px;
+}
+input[type=submit]:hover {
+    background-color: #fd8071;
+    border: 2px solid #fd8071;
+	color: #fff;
+}
+footer{
+    width:100%;
+    height: 18px;
+    background-image:url(../css/images/signature.svg);
+    background-repeat:no-repeat;
+    background-position:center;
+ }
+ #alerte{
+	font-size: 20px;
+	margin-bottom: 20px;
+ }
+ .chapeau{
+	font-family: 'Roboto', sans-serif;
+	font-style: thin;
+	font-weight: 100;
+	font-size: 1.5em;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	color:#515151;
+}
+#parcours {
+	width: 60%;
+}
+ #moyenneauto, #moyennemoto, #moyennesfrauto, #moyennesfrmoto{
+	text-align: left;
+	margin:0 auto;
+	width: 90%;	
+	margin-top: 10px;
+ }
+.infosupp{
+	font-size: 17px;
+	line-height: 22px;
+	margin-top: 10px;
+}
+.villesparcours{
+	font-size: 17px;
+	line-height: 20px;
+	margin-top: 10px;
+	fill:#B3B3B3;
+}
+.rond {
+    height: 200px;
+    width: 200px;
+   	background-color: rgba(212, 46, 26,1);
+    border-radius: 50%;
+	color:white;
+  	white-space: nowrap; /* interdiction de passer à la ligne */
+  	margin: 30px auto 30px;
+ 	display: flex;
+	flex-direction: column;	justify-content: center;
+}
+.prix{
+	font-size: 45px;
+	line-height: 1em;
+}
+.pourcentage{
+	font-size: 35px;
+	line-height: 1.4em;
+}
+.visu2{
+	width: 300px;
+	height: 180px;
+	position: relative;
+	margin: 20px 20px auto 0;	
+}
+.visu{
+	height:auto;
+	width:300px;
+}
+.flex-container{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 15px;
+    text-align:center; 
+    width:630px;
+    margin:0 auto;
+}
+.textvaleurg{
+	margin-top: 10px;
+	font-size: 37px;
+	color: #d42e1a;
+	line-height: 45px;
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+}
+.textvaleurd{
+	margin-top: 10px;
+	font-size: 37px;
+	color: #d42e1a;
+	line-height: 45px;
+	font-family: 'Oswald', sans-serif;
+	text-align: right;
+}
+.flexprix{
+	display: flex;
+	justify-content: center;
+}
+.tarifsfond{
+	width: 110px;
+	height: 110px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.8);
+	border: 2px;
+	margin: 20px;
+	font-size: 30px;
+	vertical-align: center;
+}
+.intitule{
+	margin-left: 5px;
+	font-size: 18px;
+}
+.titre{
+	word-wrap: break-word;
+	width: 100%;
+	text-align: center;
+}
+.graph1{
+	display: inline-block;
+	height: 30px;
+	vertical-align: text-bottom;
+	text-align: left;
+	background-color: rgb(191, 191, 191);
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    margin: 0 0 5px 5px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {width: 0px;}
+    /*to {width: 200px;}*/
+}
+/* Standard syntax */
+@keyframes example {
+    from {width: 0px;}
+/*    to {width: 200px;}*/
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {width: 0px;}
+    /*to {width: 200px;}*/
+}
+/* Standard syntax */
+@keyframes example {
+    from {width: 0px;}
+/*    to {width: 200px;}*/
+}
+
+/*  Accordeon
+  ------------------------------------------------------------------------------------------  */
+.accordion {
+    color: white;
+    background-color: #d42e1a;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: 1px solid #fff;
+	text-align: center;
+	outline: none;
+  	font-size: 24px;
+	line-height: 25px;
+	font-weight:inherit; 
+	color:#fff;
+	font-family: 'Oswald', sans-serif;
+  	transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: #fd8071;
+}
+.accordion:after {
+  content: '\002B';
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+* {box-sizing: border-box;
+}
+.img-magnifier-container {
+  position:relative;
+}
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+/*  SVG
+  ------------------------------------------------------------------------------------------  */
+.fondparcours{
+	stroke:#B3B3B3;
+	stroke-width:12;
+	stroke-miterlimit:10;
+}
+.fondparcoursdir{
+	fill:#B3B3B3;
+}
+.path{
+	stroke-dasharray: 370;
+	stroke-dashoffset: 370;
+	animation: dash 2s linear forwards;
+	animation-fill-mode:forwards;
+	fill:none;
+	stroke:#D42E1A;
+	stroke-width:15;
+	stroke-miterlimit:10;"
+}
+@keyframes dash {
+	from {
+		stroke-dashoffset: 359;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+/*  Responsive Design
+  ------------------------------------------------------------------------------------------  */
+/*@media only screen and (min-width:380px) and (max-width:639px){
+	body{
+		margin: 0 5% auto;
+	}
+	div{
+		width: 100%;
+	}
+	#parcours {
+		width: 100%;
+	}
+	.chapeau{
+		width: 100%;
+	}
+	#moyenneauto, #moyennemoto, #moyennesfrauto, #moyennesfrmoto {
+	    width: 100%;
+	    margin-top: 10px;
+	}
+	.accordion {
+	    width: 100%;
+	    font-size: 19px;
+	}
+}*/
+
+@media only screen and (max-device-width:450px){
+	header{
+		text-align: center;
+	}
+	header img{
+		width: 200px;
+	}
+	body{
+		width: 95%;
+		margin: 0 auto;
+	}
+	div{
+		font-family: 'Oswald', sans-serif;
+		width: 100%;
+	}
+	div .intitule{
+		font-size: 18px;
+		position: relative;
+		left: 0px;
+	}
+	h1{
+		font-size: 40px;
+		font-weight:inherit; 
+		color:inherit;
+		line-height: 40px;
+		text-align: center;
+		margin: 0 0  10px 0;
+		width: 100%;
+	}
+	p{
+		font-family: 'Abel', sans-serif;
+		font-size: 1em;
+		width: 95%;
+		text-align: justify;
+		/*margin-left: -20px;*/
+	}
+	legend{
+		margin-top: 15px;
+	}
+	.legendindex{
+		margin-top: 5px;
+	}
+	h2{
+		margin:10px 0 10px 0;
+	}
+	.h2index{
+		margin-bottom: 0px;
+	}
+	.infosupp{
+		margin-top: 20px;
+	}
+	input[type=submit]{
+    	margin-top: 20px;
+    }
+    .rond {
+  		margin: 0 auto;
+	}
+	#moyenneauto, #moyennemoto, #moyennesfrauto, #moyennesfrmoto {
+	 	text-align: left;
+	 	margin:0 auto;
+	 	width: 100%;
+	 	margin-top: 5px;	
+	 }
+ 	#parcours {
+    	width: 95%;
+	}
+	.accordion {
+    	width: 100%;
+		font-size: 19px;
+	}
+	.flex-container{
+	    display: flex;
+	    flex-direction:column;
+	    margin-bottom: 15px;
+	    text-align:center; 
+	    width:310px;
+	    margin:0 auto;"
+	}
+	.chapeau{
+		width: 90%;
+	}
+	.decalgauche{
+		margin-left: 0px;
+		padding-left: 10px;
+	}
+	.decaldroite{
+		margin-right: 0px;
+		padding-left: 10px;
+	}
+	.panel {
+	  padding: 0;
+	  background-color: white;
+	  /*max-height: 0;*/
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	}
+	.visu{
+		margin-left: 0px;
+	}
+	.graph1{
+    	margin: 0 0 5px 0;
+	}
+	.intitule{
+	margin-left: 0;
+}
+ } 
+

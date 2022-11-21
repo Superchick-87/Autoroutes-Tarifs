@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 667 370" style="enable-background:new 0 0 667 370;" xml:space="preserve">
+
+   <g>
+    <line class="path" style="fill:none;stroke:#1D1D1B;stroke-width:3;stroke-miterlimit:10;"
+    x1="109" y1="25.3" x2="300" y2="25.3"/>
+  </g>
+</svg>
+
+<style type="text/css">
+
+.path {
+  stroke-dasharray: 318;
+  stroke-dashoffset: 318;
+  animation: dash 2s linear forwards;
+  animation-fill-mode:forwards;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 320;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+
+
+   
+
+
+
+
+
+<script type="text/javascript">
+var path = document.querySelector('.path');
+var length = path.getTotalLength();
+console.log(length);
+</script>
